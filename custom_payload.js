@@ -17,7 +17,7 @@ export const options = {
 }
 
 export default function() {
-    let res = http.get("http://jti.polinema.ac.id/ruangkelas/");
+    let res = http.get("<<target>>");
     let ok = check(res, {
         "is status 200": (r) => r.status == 200
     });
